@@ -1,0 +1,31 @@
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 22px;
+}
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url("pindex pic.jpg");
+}
+/*media Query*/
+@media only screen and (max-width:600px){
+    header{
+        background-position: 20% 33%;
+    }
+}
+.banner-text{
+    position: absolute;
+    top: 450%;
+    color: #000;
+    padding: 10px;
+}
+.banner-text h4{
+    font: size 26px; ;
+    font-weight:bold ;
+    text-transform:uppercase ;
+}
